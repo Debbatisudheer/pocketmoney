@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.chart-container {
+    position: relative;
+    width: 30%; /* Adjust the width of the chart container */
+}
+
+#animatedChart {
+    width: 100% !important; /* Make the chart width 100% of its container */
+}
+
+.name-annotation {
+    position: absolute;
+    top: 60%;
+    right: 10px; /* Adjust the right distance from the chart */
+    transform: translateY(-50%);
+    font-size: 20px; /* Increase font size */
+    color: #000;
+}
+
+.social-links {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links img {
+    border-radius: 50%;
+    cursor: pointer;
+}
